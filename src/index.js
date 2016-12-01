@@ -15,6 +15,9 @@ import 'backbone.stickit';
 export { Route,  Router } from 'backbone-routing';
 
 export * from './mvc/collection';
+// export * from './mvc/collection-view';
+// export * from './mvc/composite-view';
+// export * from './mvc/view';
 export * from './helpers/currency';
 export * from './helpers/localStorage';
 export * from './helpers/translate';
@@ -42,5 +45,5 @@ export const Application = Marionette.Application;
 export const View = Marionette.View;
 export const CollectionView = Marionette.CollectionView;
 export const CompositeView = Marionette.CompositeView;
-export const Region = Marionette.Region;
 export const Behavior = Marionette.Behavior;
+export const Region = Marionette.Region;
